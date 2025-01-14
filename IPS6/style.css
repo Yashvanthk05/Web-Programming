@@ -1,0 +1,119 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction:column;
+	gap:50px;
+	font-family:'Trebuchet MS';
+	height:100dvh;
+    background: #000;
+	color: white;
+}
+
+#title{
+	font-size:48px;
+	font-weight:900;
+	color:rgb(255, 255, 255);
+	text-shadow:3px 3px 2px gray;
+}
+
+.card{
+	background-color:rgb(255,255,255);
+	border-radius:10px;
+	padding:120px 180px;
+    max-width: fit-content;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	gap:10px;
+	flex-direction:column;
+	background:url(https://static.vecteezy.com/system/resources/previews/022/769/837/non_2x/beautiful-pink-rose-flower-frame-with-watercolor-for-wedding-birthday-card-background-invitation-wallpaper-sticker-decoration-etc-vector.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	box-shadow:0px 0px 80px silver;
+	border:1px none;
+	animation:rotateani 4s infinite ease;
+}
+
+@keyframes rotateani{
+	0%{
+		box-shadow:0px 0px 80px red;
+	}
+	10%{
+		box-shadow:0px 0px 80px orangered;
+	}
+	20%{
+		box-shadow:0px 0px 80px orange;
+	}
+	30%{
+		box-shadow:0px 0px 80px yellow;
+	}
+    40%{
+		box-shadow:0px 0px 80px yellowgreen;
+	}
+    50%{
+		box-shadow:0px 0px 80px green;
+	}
+    60%{
+		box-shadow:0px 0px 80px lightseagreen;
+	}
+    70%{
+		box-shadow:0px 0px 80px blue;
+	}
+    80%{
+		box-shadow:0px 0px 80px blueviolet;
+	}
+    90%{
+		box-shadow:0px 0px 80px violet;
+	}
+    100%{
+		box-shadow:0px 0px 80px purple;
+	}
+}
+
+.card>span{
+	color:#A7D477;
+	text-shadow:2px 2px #118B50;
+	font-size:36px;
+}
+
+.card>h1{
+	font-size:40px;
+	color:#FF9EAA;
+	text-shadow:2px 2px #EF6262;
+}
+
+.card>h2{
+	font-size:28px;
+	color:#9681EB;
+	text-shadow:2px 2px #6527BE;
+}
+
+#venue{
+	width: 400px;
+	border-radius: 10px;
+}
+
+.bottom{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	font-size: 30px;
+}
+
+.bottom>img{
+	border: 1px solid;
+	padding: 10px;
+	margin-right: 100px;
+}
+
+.bottom1{
+	display: flex;
+	flex-direction: column;
+}
