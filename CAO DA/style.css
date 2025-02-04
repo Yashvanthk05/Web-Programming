@@ -1,0 +1,81 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background-color:black;
+	font-family:"Tahoma";
+	color:white;
+	overflow-x:hidden;
+}
+nav{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding:20px;
+	height:100px;
+}
+.nav{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background:linear-gradient(135deg,midnightblue,mediumslateblue);
+	gap:20px;
+	padding:20px 40px;
+	font-size:22px;
+	border-radius:50px;
+	position:fixed;
+}
+.navbar{
+	display:flex;
+	align-items:center;
+	gap:20px;
+}
+
+table{
+	text-align:center;
+	border:none;
+	border-collapse:collapse;
+	color:black;
+}
+
+th{
+	background-color:dodgerblue;
+	padding:15px 25px;
+	color:white;
+}
+
+.homecon{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:75dvh;
+}
+
+.snacks{
+	background-color:deepskyblue;
+}
+
+td{
+	background-color:aliceblue;
+	padding:10px 25px;
+}
+
+.lcon{
+	display:flex;
+	justify-content:center;
+	gap:20px;
+	flex-wrap:wrap;
+}
+
+.scon{
+	max-width:200px;
+	text-align:justify;
+	background:linear-gradient(45deg,midnightblue,mediumpurple);
+	padding:20px;
+	border-radius:10px;
+}
+
+form{
+	padding:30px;
+}
