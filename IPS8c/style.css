@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-height: 100dvh;
+    background-color:rgb(98, 0, 255,0.1);
+    font-family: 'Trebuchet MS';
+}
+
+.ques{
+    padding: 50px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.q{
+    color: rgb(98, 0, 255,0.7);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#q1,#q2,#q3,#q4,#q5,#q6,#q7,#q8{
+    background-color: rgb(98, 0, 255,0.1);
+    color: rgba(134, 58, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(98, 0, 255,0.1);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+nav{
+    background-color: rgba(134, 58, 255, 0.5);
+    color: rgba(255,255,255,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 32px;
+}
