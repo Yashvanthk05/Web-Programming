@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Forms</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="bodycon">
+			<h1>HTML Forms</h1>
+			<form onSubmit="formsubmit()" class="studform">
+				<label for="firstname">Enter Firstname:</label>
+				<input type="text" id="firstname" placeholder="Yashvanth" required></input>
+				<label for="lastname">Enter Lastname:</label>
+				<input type="text" id="lastname" placeholder="Karunakaran" required></input>
+				<label for="age">Enter Age:</label>
+				<input type="number" id="age" placeholder="18" min="0" required></input>
+				<div>
+				<label for="spec" name="spec">Enter Specialisation:</label>
+				<input type="radio" id="spec" name=spec" required>Artificial Intelligence</input>
+				<input type="radio" id="spec" name=spec" required>Machine Learning</input>
+				<input type="radio" id="spec" name=spec" required>Robotics</input>
+				<input type="radio" id="spec" name=spec" required>Cybersecurity</input>
+				<input type="radio" id="spec" name=spec" required>Datascience</input>
+				</div>
+				<div>
+					<label for="spec" name="spec">Enter Favourite Subject:</label>
+					<input type="checkbox" id="spec" name=spec">DSA</input>
+					<input type="checkbox" id="spec" name=spec">TOC</input>
+					<input type="checkbox" id="spec" name=spec" >WEB</input>
+					<input type="checkbox" id="spec" name=spec" >MPMC</input>
+					<input type="checkbox" id="spec" name=spec" >CAO</input>
+				</div>
+				<label for="phonenum">Enter Phone Number:</label>
+				<input type="tel" id="phonenum" placeholder="2345678911" required></input>
+				<label for="password">Enter Password:</label>
+				<input type="password" id="password" placeholder="********" required></input>
+				<label for="confirmpassword">Enter Confirm Password:</label>
+				<input type="password" id="confirmpassword" placeholder="********" required></input>
+				<div>
+					<button type="submit">Submit</button>
+					<button type="reset">Reset</button>
+				</div>
+			</form>
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>
