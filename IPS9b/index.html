@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab9b</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="questions">
+			<h1>23BAI1589 JS Questions Lab9b</h1>
+			<div class="ques">
+				<label for="password">1. Enter Password:</label>
+				<input type="password" name="password" id="password"></input>
+				<button onclick="validatePassword()">Click</button>
+				<span id="passwordres"></span>
+			</div>
+			<div class="ques">
+				<label>2. Count the Checkboxes</label>
+				<input class="checkbox" type="checkbox">1</input>
+				<input class="checkbox" type="checkbox">2</input>
+				<input class="checkbox" type="checkbox">3</input>
+				<input class="checkbox" type="checkbox">4</input>
+				<button onclick="countCheckboxes()">Count</button>
+				<span id="checkboxres"></span>
+			</div>
+			<div class="ques">
+				<span id="toggletxt">3. Yashvanth Karunakaran</span>
+				<button onclick="toggleText()">Toggle</button>
+			</div>
+			<div class="ques">
+				<span id="toggletxt">4. Replace bad with good</span>
+				<input type="text" name="sentence" id="sentence" id="sentence">
+				<button onclick="replaceText()">Replace</button>
+				<span id="replaceres"></span>
+			</div>
+			<div class="ques">
+				<span>5. i.) Change Text Color</span>
+				<p id="txtcolor">Yashvanth 23BAI1589</p>
+				<button onclick="changeColor()">Change Color</button>
+			</div>
+			<div class="ques">
+				<span>5. ii.) Realtime number of Characters</span>
+				<input type="text" name="txtcount" id="txtcount" id="txtcount">
+				<p>Characters Count: <span id="count">0</span></p>
+			</div>
+			<div class="ques">
+				<span>6.i.) Phone Number Validation</span>
+				<input type="tel" name="phone" id="phone" id="phone">
+				<button onclick="validatePhone()">Validate</button>
+				<span id="phoneres"></span>
+			</div>
+			<div class="ques">
+				<span>6.ii.) Extract Hashtags</span>
+				<input type="text" name="hashin" id="hashin" id="hashin">
+				<button onclick="extractHashtags()">Extract</button>
+				<span id="hashtags"></span>
+			</div>
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>
