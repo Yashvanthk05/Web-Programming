@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: black;
+    color: lime ;
+    text-shadow: 0px 0px 10px limegreen;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+}
+
+input{
+    border: 1px solid rgba(0, 255, 0, 0.2);
+    background-color:rgba(0, 255, 0, 0.1);
+    border-radius: 3px;
+    color: lime;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.questions{
+    border: 1px solid rgb(0, 255, 0,0.4);
+    padding: 40px;
+    background-color: rgb(0, 255, 0,0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius:10px;
+}
+
+.ques{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button{
+    border: 1px solid rgba(0, 255, 0, 0.3);
+    background-color:rgba(0, 255, 0, 0.2);
+    border-radius: 3px;
+    color: lime;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.bal{
+    color: rgb(255, 188, 188);
+}
+
+select{
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+button:disabled{
+    border: 1px solid rgba(0, 255, 0, 0.3);
+    color:rgba(0, 255, 0, 0.4);
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LAB 9c</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="questions">
+        <h1>23BAI1589.js</h1>
+        <div class="ques">
+            <p>Q1. Display updated text in Real time</p>
+            <input type="text" id="ques1" name="ques1" onchange="updateText(this.value)">
+            <p id="ques1res"></p>
+        </div>
+        <div class="ques">
+            <p>Q2. Button Hover Effect</p>
+            <button id="ques2" onmouseover="changeColor()" onmouseout="resetColor()">Hover me</button>
+        </div>
+        <div class="ques">
+            <p>Q3. Image Change on Hover</p>
+            <img src="matrix1.jpg" id="ques3" alt="matrix" onmouseover="changeImage()" onmouseout="resetImage()" height="300" width="450">
+        </div>
+        <div class="ques">
+            <p>Q4. Webpage Color Change to Selected Color</p>
+            <select name="ques4" id="ques4" onchange="bgChange()">
+                <option value="black" selected>Black</option>
+                <option value="darkred">Dark Red</option>
+                <option value="darkgreen">Dark Green</option>
+                <option value="midnightblue">Midnight Blue</option>
+            </select>
+        </div>
+        <div class="ques">
+            <p>Q5. Validate Email with '@'</p>
+            <input type="text" onchange="validateEmail()" id="ques5">
+            <p id="q5errmsg"></p>
+        </div>
+        <div class="ques">
+            <p>Q6. Highlight on Hover(Hover Name)</p>
+            <p style="cursor: pointer;" onmouseover="highlightTxt(this)" onmouseout="resetHighlight(this)">Yashvanth Karunakaran</p>
+        </div>
+        <div class="ques">
+            <p>Q7. Password Weak or Strong</p>
+            <input type="password" onchange="validatePassword()" id="ques7">
+            <p id="ques7res"></p>
+        </div>
+        <div class="ques">
+            <p>Q8. Toggle Submit Button with Checkbox</p>
+            <div><input type="checkbox" name="ques8" id="ques8" onchange="buttonEnabler()">
+            <label for="ques8">I accept to enter Matrix</label></div>
+            <button type="submit" id="ques8btn" disabled>Submit</button>
+        </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
