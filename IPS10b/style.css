@@ -1,0 +1,17 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family:"Trebuchet MS";
+	display:flex;
+	justify-content: center;
+	gap:30px;
+	flex-wrap:wrap;
+	padding: 50px;
+}
+
+canvas{
+	border:1px solid black;
+}
